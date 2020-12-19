@@ -12,7 +12,7 @@ public class Pump {
 		this.rpm = rpm;
 	}
 	public void pressure() {
-		System.out.println("Pressure equals: " + pressure);
+		System.out.println("Pressure equals: " + pressure + "psi");
 }
 	public double flow() {
 		double flow = (displacement*rpm)/231;
